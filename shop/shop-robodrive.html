@@ -82,28 +82,28 @@
          </button> -->
       <div class="h-100"></div>
       <section class="shop-content">
-         <!-- Shop -->
+         <!-- Shop Robodive -->
          <section class="product-section">
             <div class="product-container">
                <div class="product-wrapper">
                   <div class="product-content">
                      <div class="product-left">
                         <div class="image-container">
-                           <img id="mainImage" src="../images/torch/main-torch-shop.png" alt="Product Image">
-                        </div>
-                        <div class="thumbnails">
-                           <img src="../images/torch/torch-1-thumbnail.png" data-src="../images/torch/shop-torch-1.png" onclick="changeImage(this)" onmouseover="hoverChangeImage(this)">
-                           <img src="../images/torch/torch-2-thumbnail.png" data-src="../images/torch/shop-torch-2.png" onclick="changeImage(this)" onmouseover="hoverChangeImage(this)">
-                           <img src="../images/torch/torch-3-thumbnail.png" data-src="../images/torch/shop-torch-3.png" onclick="changeImage(this)" onmouseover="hoverChangeImage(this)">
-                           <img src="../images/torch/torch-4-thumbnail.png" data-src="../images/torch/shop-torch-4.png" onclick="changeImage(this)" onmouseover="hoverChangeImage(this)">
-                           <img src="../images/torch/torch-5-thumbnail.png" data-src="../images/torch/shop-torch-5.png" onclick="changeImage(this)" onmouseover="hoverChangeImage(this)">
-                        </div>
+                        <img id="mainImage" src="../images/robodrive/robodrive-shop-main.png" alt="Product Image">
+                    </div>
+                    <div class="thumbnails">
+                        <img src="../images/robodrive/robodrive-thumbnail-1.png" data-src="../images/robodrive/robodrive-shop-1.png" onclick="changeImage(this)" onmouseover="hoverChangeImage(this)">
+                        <img src="../images/robodrive/robodrive-thumbnail-2.png" data-src="../images/robodrive/robodrive-shop-2.png" onclick="changeImage(this)" onmouseover="hoverChangeImage(this)">
+                        <img src="../images/robodrive/robodrive-thumbnail-3.png" data-src="../images/robodrive/robodrive-shop-3.png" onclick="changeImage(this)" onmouseover="hoverChangeImage(this)">
+                        <img src="../images/robodrive/robodrive-thumbnail-4.png" data-src="../images/robodrive/robodrive-shop-4.png" onclick="changeImage(this)" onmouseover="hoverChangeImage(this)">
+                        <img src="../images/robodrive/robodrive-thumbnail-5.png" data-src="../images/robodrive/robodrive-shop-5.png" onclick="changeImage(this)" onmouseover="hoverChangeImage(this)">
+                    </div>
                      </div>
                      <div class="product-right">
                         <div class="product-info">
-                           <h2 style="font-family: 'Space Age', sans-serif;">Torch</h2>
-                           <h3>Versatile multistage AGV and hardware platform</h3>
-                           <p>Tele-Operated Robotic Remote-Controlled Hardware (TORCH) is a versatile multistage vehicle and hardware platform designed and developed by F.A.R.M. engineers.</p>
+                           <h2 style="font-family: 'Space Age', sans-serif;">Robodrive Engine V.1</h2>
+                           <h3>Developer Kit</h3>
+                           <p>Feature-rich, real-time environment for unparalleled robotic interaction. Integrated robot control system, the RoboDrive Engine combines a high-performance control circuit board with optimized low-level firmware. Designed with precise timing and resource efficiency in mind, the core firmware is developed in C programming language to maximize execution speed and reliability. This efficient integration ensures robust, responsive control, empowering engineers to operate and fine-tune robotic systems with high precision and minimal latency.</p>
                         </div>
                         <div class="btn-group btn_line">
                            <a href="#" class="btn_main shop-btn btn_yellow_primary top-down">
@@ -118,58 +118,17 @@
                               <div class="hover"></div>
                               <span>User Manual</span>
                            </a>
+                           <!-- <a href="#" class="btn_main shop-btn btn_yellow_primary left-right">
+                               <div class="hover"></div>
+                               <span>Tech Info</span>
+                           </a> -->
                         </div>
                         <!-- Start Form for "Buy Now" -->
                         <form action="https://getform.io/f/anlqkzda" method="POST" id="purchaseForm">
                            <div class="product-options">
-                              <!-- Camera Option -->
-                              <div class="option-group">
-                                 <label for="baseStation">Battery Backpack</label>
-                                 <select id="baseStation" name="baseStation">
-                                    <option value="none" selected>No Battery</option>
-                                    <option value="blueBoatBaseStation">Default Capacity - $100.00</option>
-                                    <option value="redDragonCamera">Large Capacity - $200.00</option>
-                                 </select>
-                              </div>
-                              <!-- Mast-Cam Module Option -->
-                              <div class="option-group">
-                                 <label for="payloadBracket">Mast-Cam Module</label>
-                                 <select id="payloadBracket" name="payloadBracket">
-                                    <option value="none" selected>No Mast-Cam Module</option>
-                                    <option value="standardJoystick">Mast-Cam Module TR1 - $100.00</option>
-                                    <option value="standardJoystick">Mast-Cam Module TR2 - $150.00</option>
-                                    <option value="standardJoystick">Mast-Cam Module TR3 - $200.00</option>
-                                 </select>
-                              </div>
-                              <!-- Controller Option -->
-                              <div class="option-group">
-                                 <label for="controller">Controller</label>
-                                 <select id="controller" name="controller">
-                                    <option value="none" selected>No Controller</option>
-                                    <option value="joystick">Robodrive</option>
-                                 </select>
-                              </div>
-                              <!-- Payload -->
-                              <div class="option-group">
-                                 <label for="sideScan">Payload Module</label>
-                                 <select id="sideScan" name="sideScan">
-                                    <option value="none" selected>No Payload Module</option>
-                                    <option value="sideScanBasic">Small Payload Module Enclosure - $500.00</option>
-                                    <option value="sideScanAdvanced">Medium Payload Module Enclosure - $700.00</option>
-                                    <option value="sideScanPro">Big Payload Module Enclosure - $900.00</option>
-                                 </select>
-                              </div>
-                              <!-- Mechanical Extension -->
-                              <div class="option-group">
-                                 <label for="payloadBracket">Mechanical Extension</label>
-                                 <select id="payloadBracket" name="payloadBracket">
-                                    <option value="none" selected>No Mechanical Extension</option>
-                                    <option value="standardJoystick">Mecha-Arm V.1 - $100.00</option>
-                                 </select>
-                              </div>
-                           </div>
+                             
                            <!-- Price Info and Buy Now Links -->
-                           <div class="price-info">
+                           <!--<div class="price-info">
                               <div class="price-option">
                                  <h4>$100</h4>
                                  <p>Assembly kit</p>
@@ -183,7 +142,7 @@
                                     </a>
                                  </div>
                               </div>
-                              <div class="separator"></div>
+                               <div class="separator"></div>
                               <div class="price-option">
                                  <h4>$150</h4>
                                  <p>Assembled Vehicle</p>
@@ -194,50 +153,8 @@
                                        <span>Purchase</span>
                                     </a>
                                  </div>
-                              </div>
+                              </div> -->
                            </div>
-                        
-                        <!-- Modal -->
-                        <div id="contactModal" class="modal">
-                           <div class="modal-content">
-                              <span class="close">&times;</span>
-                              <form action="https://getform.io/f/anlqkzda" method="POST" id="modalForm">
-                                 <!-- Contact Form -->
-                                 <div class="form-group">
-                                    <label for="name">Full Name</label>
-                                    <input type="text" id="name" name="name" placeholder="Your Full Name" required>
-                                 </div>
-                                 <div class="form-group">
-                                    <label for="email">Email Address</label>
-                                    <input type="email" id="email" name="email" placeholder="Your Email Address" required>
-                                 </div>
-                                 <div class="form-group">
-                                    <label for="address">Street Address</label>
-                                    <input type="text" id="address" name="address" placeholder="Street Address" required>
-                                 </div>
-                                 <div class="form-group">
-                                    <label for="zip">ZIP Code</label>
-                                    <input type="text" id="zip" name="zip" placeholder="ZIP Code" required>
-                                 </div>
-                                 <div class="form-group">
-                                    <label for="country">Country</label>
-                                    <input type="text" id="country" name="country" placeholder="Your Country" required>
-                                 </div>
-                                 <div class="form-group">
-                                    <label for="phone">Phone Number</label>
-                                    <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
-                                 </div>
-                                 <div class="form-group">
-                                    <label for="message">Message</label>
-                                    <textarea id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
-                                 </div>
-                                 <a href="#" class="btn_main btn_yellow_primary top-down buy-link buy-now-button" data-product="Assembled Product">
-                                    <div class="hover"></div>
-                                    <span>Purchase</span>
-                                 </a>
-                              </form>
-                           </div>
-                        </div>
                         <!-- End Form -->
                         </form>
                      </div>
@@ -245,113 +162,9 @@
                </div>
             </div>
          </section>
-         <div class="additional-items-block">
-            <div class="additional-items-block-content">
-               <img src="../images/torch/battery-400x400.png">
-               <h3>Battery Backpack</h3>
-               <p>240Wh Battery Backpack</p>
-               <h6>$100.00</h6>
-               <a href="../articles/battery-backpack.html" class="btn_main btn_yellow_primary top-down">
-                  <div class="hover"></div>
-                  <span>Purchase</span>
-               </a>
-            </div>
-            <div class="additional-items-block-content">
-               <img src="../images/torch/mast-cam-module-400x400.png">
-               <h3>Mast-Cam Module</h3>
-               <p>Advanced sensors and detection technologies</p>
-               <h6>$130.00</h6>
-               <a href="../articles/mast-cam-module.html" class="btn_main btn_yellow_primary bottom-up">
-                  <div class="hover"></div>
-                  <span>Purchase</span>
-               </a>
-            </div>
-            <div class="additional-items-block-content">
-               <img src="../images/robodrive/controller-400x400.png">
-               <h3>AGV Controller</h3>
-               <p>The robot hardware control electronic circuit board</p>
-               <h6>$70.00</h6>
-               <a href="../articles/controller.html" class="btn_main btn_yellow_primary bottom-up">
-                  <div class="hover"></div>
-                  <span>Purchase</span>
-               </a>
-            </div>
-            <div class="additional-items-block-content">
-               <img src="../images/torch/payload-400x400.png">
-               <h3>Payload Module</h3>
-               <p>Custom research modules to extend the functionality</p>
-               <h6>$200.00</h6>
-               <a href="../articles/payload-module.html" class="btn_main btn_yellow_primary top-down">
-                  <div class="hover"></div>
-                  <span>Purchase</span>
-               </a>
-            </div>
-            <div class="additional-items-block-content">
-               <img src="../images/mecha-arm/mecha-arm-400x400.png">
-               <h3>Mechanical Extension</h3>
-               <p>The physical actuation interface for the remote manipulation</p>
-               <h6>$200.00</h6>
-               <a href="../articles/mechanical-extension.html" class="btn_main btn_yellow_primary top-down">
-                  <div class="hover"></div>
-                  <span>Purchase</span>
-               </a>
-            </div>
-         </div>
-         <!-- More Products part end -->
-         <!-- <section class="shop-pricing-section">
-            <div class="shop-pricing">
-                <div class="shop-pricing-row">
-                    <div class="shop-pricing-column">
-                        <h2>Testing Kenji Kit</h2>
-                        <h4>Free</h4>
-                        <span>Duration 1 Month</span>
-                        <ul>
-                            <li>✓Limited Reports</li>
-                            <li>✓Unlimited projects</li>
-                            <li>✓Data storage for 1 year</li>
-                            <li>✕Lorem ipsum</li>
-                            <li>✕Lorem ipsum</li>
-                        </ul>
-                        <a href="#" class="btn_main_primary">
-                            <div class="hover"></div>
-                            <span>Purchase</span>
-                        </a>
-                    </div>
-                    <div class="shop-pricing-column">
-                        <h2>Self-assembly kit</h2>
-                        <h4>$2400 / item</h4>
-                        <span>3,000 monthly visitors</span>
-                        <ul>
-                            <li>✓Limited Reports</li>
-                            <li>✓Unlimited projects</li>
-                            <li>✓Data storage for 1 year</li>
-                            <li>✕Lorem ipsum</li>
-                            <li>✕Lorem ipsum</li>
-                        </ul>
-                        <a href="#" class="btn_main btn_yellow_primary top-down">
-                            <div class="hover"></div>
-                            <span>Purchase</span>
-                        </a>
-                    </div>
-                    <div class="shop-pricing-column">
-                        <h2>Assembled Kenji X1</h2>
-                        <h4>$3000 / item</h4>
-                        <span>10,000 monthly visitors</span>
-                        <ul>
-                            <li>✓Unlimited Reports</li>
-                            <li>✓15-days free trial</li>
-                            <li>✓Data storage for 3 year</li>
-                            <li>✓Lorem ipsum</li>
-                            <li>✓Lorem ipsum</li>
-                        </ul>
-                        <a href="#" class="btn_main_primary">
-                            <div class="hover"></div>
-                            <span>Purchase</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            </section> -->
+         <section class="image-section">
+             <img src="../images/Robodrive-wired-for-shop-page.png" alt="Descriptive Alt Text">
+         </section>
          <!-- Footer -->
          <footer>
             <ul>
